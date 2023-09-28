@@ -1,0 +1,11 @@
+#CCOMP
+#EXERCICIO 1 - Ler dois valores do user
+
+def main():
+    c=int (input("digite um valor: "))
+    a=int(input("digite um valor:"))
+    b=int(input("digite o segundo valor:"))
+    multi= a*b+c
+    print(multi)
+if __name__=="__main__":
+    main()
